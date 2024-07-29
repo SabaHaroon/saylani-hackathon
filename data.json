@@ -323,7 +323,7 @@
             "icon": "./assets/images/icon-accessibility.svg",
             "questions": [
                 {
-                    "question": "What is the national dress of pakistan",
+                    "question": "",
                     "options": [
                         "Shalwar Kamees",
                         "frock",
@@ -439,17 +439,17 @@
                     "answer": "Muharram"
                 },
                 {
-                    "question": "Which HTML attribute is used to define inline styles?",
+                    "question": "which surah is Beauty of Quran ",
                     "options": [
-                        "styles",
-                        "style",
-                        "class",
-                        "font-style"
+                        "Surah Yaseen",
+                        "Surah Mulk",
+                        "Surah Waqiyah",
+                        "Surah Al-Rehman"
                     ],
-                    "answer": "style"
+                    "answer": "Surah Al-Rehman"
                 },
                 {
-                    "question": "How do you insert a comment in a CSS file?",
+                    "question": "",
                     "options": [
                         "// this is a comment //",
                         "/* this is a comment */",
