@@ -4,24 +4,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/pngtree-s-icon-logo-png-image_6548827.png">
   <link rel="stylesheet" href="./style.css">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <title>Saylani Quiz</title>
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Signup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="login-form">Login</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Login Form Container -->
+  <div class="login-form-container" id="login-form">
+    <div id="close-login-btn" class="fas fa-times"></div>
+    <div id="login-content"></div>
+  </div>
+
+
   <main>
     <article class="row-top">
       <div class="curr-subject">
         <div class="button-icon-container">
-          <img class="subject-img" src="./assets/images/" alt="subject icon">
+         <img src="" alt="">
         </div>
-        <!-- <img class="subject-img" src=""> -->
+<<<<<<< HEAD
+        <img class="subject-img" src="">
+=======
+>>>>>>> 0adc95c9552d5483822c864f117a22f7660a6991
         <h2 class="subject-chosen">some Subject</h2>
       </div>
       <div class="light-dark-toggle">
@@ -39,18 +70,18 @@
     </article>
 
     <!-- Quiz menu start -->
-
     <article class="start-menu">
       <div class="left-content">
         <p><img src="assets/images/download.png" alt=""></p>
-        <h1 >Welcome to the <span  style="color:#2948f5; ;" class="bolded">Saylani Quiz!</span></h1>
+        <h1>Welcome to the <span style="color:#2948f5;" class="bolded">Saylani Quiz!</span></h1>
         <p>Pick a subject to get started.</p>
       </div>
 
       <div class="choices">
+        <!-- Quiz buttons -->
         <button id="HTML" class="quiz-type">
           <div class="button-icon-container">
-            <img src="./assets/images/icon-html.svg"  style="size: 20px;">
+            <img src="./assets/images/icon-html.svg" style="size: 20px;">
           </div>HTML
         </button>
         <button id="CSS" class="quiz-type">
@@ -65,36 +96,34 @@
           JavaScript
         </button>
         <button id="General Knowledge" class="quiz-type">
-          <div class=" button-icon-container">
-            <img src= "assets/images/light-bulb.png" style = "height: 44px ;" width="44px" alt="brain icon">
+          <div class="button-icon-container">
+            <img src="assets/images/light-bulb.png" style="height: 44px;" width="44px" alt="brain icon">
           </div>
           General Knowledge
         </button>
         <button id="Islamic Studies" class="quiz-type">
-          <div class=" button-icon-container">
-            <img src="./assets/images/stack-of-books.png" style = "height: 44px ;" width="44px" alt=" icon">
+          <div class="button-icon-container">
+            <img src="./assets/images/stack-of-books.png" style="height: 44px;" width="44px" alt="icon">
           </div>
           Islamic Studies
         </button>
         <button id="English Grammer" class="quiz-type">
-          <div class=" button-icon-container">
-            <img  src="./assets/images/6422859.png" style = "height: 44px ;" width="44px" alt="icon">
+          <div class="button-icon-container">
+            <img src="./assets/images/6422859.png" style="height: 44px;" width="44px" alt="icon">
           </div>
           English Grammer
         </button>
-        <button id="About SAylani" class="quiz-type">
-          <div class=" button-icon-container">
-            <img src="./assets/images/download.jpeg"  style = "height: 44px ;" width="44px" alt="icon">
+        <button id="About Saylani" class="quiz-type">
+          <div class="button-icon-container">
+            <img src="./assets/images/download.jpeg" style="height: 44px;" width="44px" alt="icon">
           </div>
           About Saylani
         </button>
       </div>
     </article>
-
     <!-- Quiz menu end -->
 
     <!-- Quiz question start -->
-
     <article class="question-screen">
       <div class="left-content">
         <div class="question-wrapper">
@@ -103,9 +132,7 @@
           <h2 class="question">Placeholder</h2>
         </div>
         <div class="progress-bar whole">
-          <div class="progress-bar done">
-
-          </div>
+          <div class="progress-bar done"></div>
         </div>
       </div>
       <div class="choices options">
@@ -129,11 +156,9 @@
         </div>
       </div>
     </article>
-
     <!-- Quiz question end -->
 
     <!-- Quiz completed start -->
-
     <article class="quiz-complete">
       <div class="complete-left">
         <h1>Quiz completed
@@ -147,7 +172,6 @@
             <div class="button-icon-container">
               <img class="subject-img" src="./assets/images/icon-css.svg" alt="subject icon">
             </div>
-            <!-- <img class="subject-img" src=""> -->
             <h2 class="subject-chosen">some Subject</h2>
           </div>
           <h1 class="final-score"><!-- score --></h1>
@@ -155,13 +179,18 @@
         </div>
         <button class="restart">Play Again</button>
       </div>
-
     </article>
-
     <!-- Quiz completed end -->
-
   </main>
+
   <script src="./app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz4fnFO9gybBogGzLzZj6T7s2bpc/xrT+fWxW8E7H6ftd3vLvKKNoPB3Kk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-qsy6zK8slz6W8E7H6ftd3vLvKKNoPB3Kk" crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>

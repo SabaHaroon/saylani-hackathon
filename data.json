@@ -320,7 +320,6 @@
         },
         {
             "title": "General Knowledge",
-            "icon": "./assets/images/icon-css.svg",
             "questions": [
                 {
                     "question": "When was the second world war held?",

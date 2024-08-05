@@ -282,10 +282,10 @@ button:hover {
     background-color: var(--js-bg);
 }
 
-.button-icon-container>img[src="./assets/images/icon-accessibility.svg"] {
+.button-icon-container>img[src="./assets/images/light-bulb.png"] {
     background-color: var(--General-Knowledge-bg);
 }
-.button-icon-container>img[src="./assets/images/icon-accessibility.svg"] {
+.button-icon-container>img[src="./assets/images/stack-of-books.png"] {
     background-color: var(--Islamic-studies-bg);
 }
 

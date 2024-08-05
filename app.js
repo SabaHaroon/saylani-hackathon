@@ -1,4 +1,17 @@
-// light dark switch section
+
+
+
+
+
+// Close button functionality
+document.getElementById('close-login-btn').addEventListener('click', function() {
+    document.getElementById('login-form').style.display = 'none'; // Hide the login form
+});
+
+
+document.getElementById('close-login-btn').addEventListener('click', function() {
+    document.getElementById('login-form').style.display = 'none';
+});// light dark switch section
 const toggleSwitch = document.querySelector('.light-dark-switch input[type="checkbox"]');
 document.querySelector(".start-menu").classList.toggle("visible")
 
