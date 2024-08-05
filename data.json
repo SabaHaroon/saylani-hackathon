@@ -320,27 +320,27 @@
         },
         {
             "title": "General Knowledge",
-            "icon": "./assets/images/icon-accessibility.svg",
+            "icon": "./assets/images/icon-css.svg",
             "questions": [
                 {
-                    "question": "",
+                    "question": "When was the second world war held?",
                     "options": [
-                        "Shalwar Kamees",
-                        "frock",
-                        "lehnga",
-                        "maxi"
+                        "1939",
+                        "1929",
+                        "1938",
+                        "1940"
                     ],
-                    "answer": "Shalwar Kamees"
+                    "answer": "1939"
                 },
                 {
-                    "question": "Which element is used to provide alternative text for images for screen reader users?",
+                    "question": "Who is the First Governor General of Pakistan?",
                     "options": [
-                        "<alt>",
-                        "<figcaption>",
-                        "<description>",
-                        "<img alt='description'>"
+                        "Liaqat Ali Khan",
+                        "Quaid-Azam",
+                        "Chodhery Rehmat Ali",
+                        "Iskandar Mirza"
                     ],
-                    "answer": "<img alt='description'>"
+                    "answer": "Quaid-Azam"
                 },
                 {
                     "question": "What does ARIA stand for in web development?",
@@ -353,74 +353,74 @@
                     "answer": "Accessible Rich Internet Applications"
                 },
                 {
-                    "question": "Which of the following is not a principle of the WCAG?",
+                    "question": "How mANY TOWN THERE IN karachi?",
                     "options": [
-                        "Perceivable",
-                        "Dependable",
-                        "Operable",
-                        "Understandable"
+                        "16 Towns",
+                        "17 Towns",
+                        "18 Towns",
+                        "19 Towns"
                     ],
-                    "answer": "Dependable"
+                    "answer": "18 Towns"
                 },
                 {
-                    "question": "Which of these color contrast ratios defines the minimum WCAG 2.1 Level AA requirement for normal text?",
+                    "question": "how Many Languges are there in Pakistan?",
                     "options": [
-                        "3:1",
-                        "4.5:1",
-                        "7:1",
-                        "2:1"
+                        "About 29",
+                        "About 30",
+                        "About 31",
+                        "About 32"
                     ],
-                    "answer": "4.5:1"
+                    "answer": "About 31"
                 },
                 {
-                    "question": "Which of the following elements is inherently focusable, meaning it can receive focus without a 'tabindex' attribute?",
+                    "question": "When did Pakistan's first Atomic explosion take place",
                     "options": [
-                        "<div>",
-                        "<span>",
-                        "<a href='...'>",
-                        "<p>"
+                        "28 of May 1996",
+                        "28 of May 1997",
+                        "28 of May 1998",
+                        "28 of May 1999"
                     ],
-                    "answer": "<a href='...'>"
+                    "answer": "28 of May 1998"
                 },
                 {
-                    "question": "What is the purpose of the 'lang' attribute in an HTML page?",
+                    "question": "national dress of Pakistan",
                     "options": [
-                        "To specify the scripting language",
-                        "To define the character set",
-                        "To indicate the language of the page content",
-                        "To declare a language pack"
+                        "Frock",
+                        "Shalwar Kamees",
+                        "Shawl",
+                        "Maxi"
                     ],
-                    "answer": "To indicate the language of the page content"
+                    "answer": "Shalwar Kamees"
                 },
                 {
-                    "question": "Which guideline ensures that content is accessible by keyboard as well as by mouse?",
+                    "question": "When was the all india Muslim League Found",
                     "options": [
-                        "Keyboard Accessible",
-                        "Mouse Independence",
-                        "Device Independence",
-                        "Operable Controls"
+                        "1906",
+                        "1907",
+                        "1908",
+                        "1909"
                     ],
-                    "answer": "Keyboard Accessible"
+                    "answer": "1906"
                 },
                 {
-                    "question": "What is the role of 'skip navigation' links in web accessibility?",
+                    "question": "____ type of polution which we are facing ",
                     "options": [
-                        "To skip over primary navigation to the main content",
-                        "To provide shortcuts to different sections of the website",
-                        "To help users skip unwanted sections like advertisements",
-                        "To bypass broken links in the navigation"
+                        "3 types",
+                        "2 types",
+                        "4 types",
+                        "6 types"
                     ],
-                    "answer": "To skip over primary navigation to the main content"
+                    "answer": "3 types"
                 },
                 {
-                    "question": "Which of these tools can help in checking the accessibility of a website?",
+                    "question": "Who was the First Prime Minister Of PAkistan",
                     "options": [
-                        "W3C Validator",
-                        "Google Lighthouse",
-                        "CSS Validator",
-                        "JavaScript Console"
+                        "Quaid-e-Azam",
+                        "Liaqat Ali Khan",
+                        "Chodhery Rehmat Ali",
+                        "Iskandar Mirza"
                     ],
-                    "answer": "Google Lighthouse"
+                    "answer": "Liaqat Ali Khan"
                 }
             ]
         },
@@ -449,59 +449,60 @@
                     "answer": "Surah Al-Rehman"
                 },
                 {
-                    "question": "",
+                    "question": "what is the key of JANNAH",
                     "options": [
-                        "// this is a comment //",
-                        "/* this is a comment */",
-                        "-- this is a comment --",
-                        "<!-- this is a comment -->"
+                        "Roza",
+                        "Namaz",
+                        "Zakat",
+                        "Haj"
                     ],
-                    "answer": "/* this is a comment */"
+                    "answer": "Namaz"
                 },
                 {
-                    "question": "Which property is used to change the background color of an element?",
+                    "question": "who is the first Caliph of Islam",
                     "options": [
-                        "color",
-                        "bgcolor",
-                        "background-color",
-                        "background"
+                        "Hazrat Umer Farooq",
+                        "Hazrat AbuBakar Siddique",
+                        "Hazrat Usman Ghani",
+                        "Hazrat Ali Murtaza"
                     ],
-                    "answer": "background-color"
+                    "answer": "Hazrat AbuBakar Siddique"
                 },
                 {
-                    "question": "How do you apply a style to all <p> elements?",
+                    "question": "who is the First wife of our Prophet",
                     "options": [
-                        "p { }",
-                        ".p { }",
-                        "#p { }",
-                        "all.p { }"
+                        "Hazrat Khadija",
+                        "Hazrat Ayesha",
+                        "Hazrat Maimona",
+                        "Hazrat Safia"
+                        
                     ],
-                    "answer": "p { }"
+                    "answer": "Hazrat Khadija"
                 },
                 {
-                    "question": "Which property is used to change the font of an element?",
+                     "question": "When was Ghazwa-e-Badar held?",
                     "options": [
-                        "font-style",
-                        "text-style",
-                        "font-family",
-                        "typeface"
+                        "21 Ramadan",
+                        "18 Ramadan",
+                        "17 Ramadan",
+                        "11 Ramadan"
                     ],
-                    "answer": "font-family"
+                    "answer": "17 Ramadan"
                 },
                 {
-                    "question": "How do you make each word in a text start with a capital letter?",
+                    "question": "what is key of Salah",
                     "options": [
-                        "text-transform: capitalize",
-                        "text-transform: uppercase",
-                        "text-style: capital",
-                        "font-transform: capitalize"
+                        "Takbeer",
+                        "Qirrat",
+                        "Wozo",
+                        "Gusl"
                     ],
-                    "answer": "text-transform: capitalize"
+                    "answer": "Wozo"
                 },
                 {
-                    "question": "How do you select an element with the class name 'header'?",
+                    "question": " ",
                     "options": [
-                        ".header",
+                        "500 year than rich",
                         "#header",
                         "header",
                         "*header"
