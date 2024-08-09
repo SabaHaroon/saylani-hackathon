@@ -499,34 +499,141 @@
                     "answer": "Wozo"
                 },
                 {
-                    "question": " ",
+                    "question": "fundamentals of Islam are _______",
                     "options": [
-                        "500 year than rich",
-                        "#header",
-                        "header",
-                        "*header"
+                        "4",
+                        "5",
+                        "6",
+                        "7"
                     ],
-                    "answer": ".header"
+                    "answer": "5"
                 },
                 {
-                    "question": "What is the default value of the 'position' property?",
+                    "question": "Muslims performing haj in the month of ______ ",
                     "options": [
-                        "relative",
-                        "fixed",
-                        "absolute",
-                        "static"
+                        "Zillhaj",
+                        "Shawal",
+                        "Muharram",
+                        "Saffar"
                     ],
-                    "answer": "static"
+                    "answer": "Zillhaj"
                 },
                 {
-                    "question": "What is the purpose of the z-index property in CSS?",
+                    "question": "'Miswak' in Wozo is ____",
                     "options": [
-                        "To count the number of elements",
-                        "To set the magnification level of an element",
-                        "To specify the stack order of an element",
-                        "To create a zoom effect"
+                        "Frz",
+                        "wajib",
+                        "Sunnat",
+                        "Mustahab"
                     ],
-                    "answer": "To specify the stack order of an element"
+                    "answer": "Sunnat"
+                }
+            ]
+        },
+        {
+            "title": "English Grammer",
+            "icon": "./assets/images/brain-svgrepo-com.svg",
+            "questions": [
+                {
+                    "question": "Computer helps ____ scienctific laboratory",
+                    "options": [
+                        "of",
+                        "in",
+                        "is",
+                        "to"
+                    ],
+                    "answer": "in"
+                },
+                {
+                    "question": "mobile is ___ Electronic device",
+                    "options": [
+                        "a",
+                        "an",
+                        "the",
+                        "none of these above"
+                    ],
+                    "answer": "an"
+                },
+                {
+                    "question": "'he goes to classroom' change the sentence into simple past",
+                    "options": [
+                        "he go to classroom",
+                        "he went to classroom",
+                        "he was going to classroom",
+                        "he wents to classroom"
+                    ],
+                    "answer": "he went to classroom"
+                },
+                {
+                    "question": "we are ____ tv",
+                    "options": [
+                        "watch",
+                        "watches",
+                        "watching",
+                        "watched"
+                    ],
+                    "answer": "watching"
+                },
+                {
+                    "question": "english is ___ international language",
+                    "options": [
+                        "a",
+                        "an",
+                        "the",
+                        "1st or 3rd both"
+                        
+                    ],
+                    "answer": "an"
+                },
+                {
+                     "question": "homophones ae those words which have _____",
+                    "options": [
+                        "same meanings different sounds",
+                        "same sound different meanings",
+                        "opposite to eachother",
+                        "none of these above"
+                    ],
+                    "answer": "same sound different meanings"
+                },
+                {
+                    "question": "'will' is the helping verb of _____",
+                    "options": [
+                        "past",
+                        "Present",
+                        "future",
+                        "passive"
+                    ],
+                    "answer": "future"
+                },
+                {
+                    "question": "change the sentence into present continues 'you ate bananas'",
+                    "options": [
+                        "you eat bananas",
+                        "you are eating bananas",
+                        "you eats bananas",
+                        "you have eat bananas"
+                    ],
+                    "answer": "you are eating bananas"
+                },
+                {
+                    "question": "which one is correct... 'Tarorism' or 'Terrorism'",
+                    "options": [
+                        "Terrorism",
+                        "Tarorism",
+                        "both are correct",
+                        "both are incorrect"
+                    ],
+                    "answer": "Terrorism"
+                },
+                {
+                    "question": "'the rest of' means _____",
+                    "options": [
+                        "leaving something",
+                        "remaining",
+                        "To visit to someone",
+                        "to remember"
+                    ],
+                    "answer": "remaining"
                 }
             ]
         }

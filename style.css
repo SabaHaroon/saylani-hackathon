@@ -18,10 +18,10 @@
 }
 
 [data-theme="dark"] {
-    --text-color: #ABC1E1;
-    --text-color-p: #ABC1E1;
-    --bg-col: #313E51;
-    --button-bg: #052047;
+    --text-color: #e7eaee;
+    --text-color-p: #505a64;
+    --bg-col: #4c5a72;
+    --button-bg: #485369;
     --bg: url("./assets/images/pattern-background-mobile-dark.svg");
     --sun-src: url("./assets/images/icon-sun-light.svg");
     --moon-src: url("./assets/images/icon-moon-light.svg");
@@ -95,7 +95,7 @@ button {
 
 /*************** Start - Light / Dark Toggle Switch ****************/
 
-.light-dark-toggle {
+.-dark-toggle {
     display: flex;
     align-items: center;
     gap: .5rem;

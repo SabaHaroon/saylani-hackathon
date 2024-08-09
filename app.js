@@ -1,9 +1,11 @@
-
-
-
-
-
 // Close button functionality
+
+
+
+
+
+
+
 document.getElementById('close-login-btn').addEventListener('click', function() {
     document.getElementById('login-form').style.display = 'none'; // Hide the login form
 });
@@ -56,14 +58,21 @@ function setSubjectBars(type) {
             bar.firstElementChild.firstElementChild.src = "./assets/images/icon-css.svg"
         }
         else if (type == "JavaScript") {
-            bar.firstElementChild.firstElementChild.src = "./assets/images/icon-js.svg"
+            bar.firstElementChild.firstElementChild.src = "./assets/images/icon-js.svg" 
         }
-        else {
-            bar.firstElementChild.firstElementChild.src = "./assets/images/icon-accessibility.svg"
-        }
+        // else if (type == "General Knowledge") {
+        //     bar.firstElementChild.firstElementChild.src = "./assets/images/light-bulb.png"
+        // }
+        // else if (type == "Islamic Studies") {
+        //     bar.firstElementChild.firstElementChild.src = "./assets/images/stack-of-books.png"
+        // }
+        // // else {
+        // //     bar.firstElementChild.firstElementChild.src = "./assets/images/6422859.png"
+        // }
         bar.style.visibility = "visible"
     }
-}
+    }
+
 
 var quizChosen;
 var qCount = -1;
